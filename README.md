@@ -13,10 +13,3 @@ A user clicks a filtering checkbox, but the browser main thread is locked for 45
 ### The Naive vs. Enterprise Difference
 * **Naive:** Heavy synchronous computations inside the click handler blocking paint frames.
 * **Production Grade:** Offloading transformations via Web Workers or chunking work with `scheduler.yield()`.
-
-### How to Run Locally
-```bash
-git clone [https://github.com/beyondlocalhost/series-01-web-vitals.git](https://github.com/beyondlocalhost/series-01-web-vitals.git)
-cd series-01-web-vitals/episodes/01-inp-profiler-telemetry
-npm install
-npm run dev
