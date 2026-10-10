@@ -21,8 +21,6 @@ This repository contains the reproduction benchmarks, profiler traces, and produ
   - `Enterprise`: Offloading transformations via Web Workers or chunking work via `scheduler.yield()`.
 - **Resources**:
   - 🎬 [Watch Breakdown on Instagram](https://instagram.com/beyondlocalhost.dev)
-  - 💻 Code: [`./episodes/01-inp-profiler-telemetry`](./episodes/01-inp-profiler-telemetry)
-  - 📊 Benchmark: Run `pnpm ep01:naive` vs `pnpm ep01:optimized`
 
 ---
 
@@ -33,8 +31,6 @@ This repository contains the reproduction benchmarks, profiler traces, and produ
   - `Enterprise`: Modern CSS `aspect-ratio` bounding containers, placeholder skeleton anchoring, and containment context (`contain: layout`).
 - **Resources**:
   - 🎬 [Watch Breakdown on Instagram](https://instagram.com/beyondlocalhost.dev)
-  - 💻 Code: [`./episodes/02-cls-media-grids`](./episodes/02-cls-media-grids)
-  - 📊 Benchmark: Run `pnpm ep02:naive` vs `pnpm ep02:optimized`
 
 ---
 
@@ -45,8 +41,6 @@ This repository contains the reproduction benchmarks, profiler traces, and produ
   - `Enterprise`: Native `fetchpriority="high"`, `<link rel="preload">`, and HTTP 103 Early Hints.
 - **Resources**:
   - 🎬 [Watch Breakdown on Instagram](https://instagram.com/beyondlocalhost.dev)
-  - 💻 Code: [`./episodes/03-lcp-priority-hints`](./episodes/03-lcp-priority-hints)
-  - 📊 Benchmark: Run `pnpm ep03:naive` vs `pnpm ep03:optimized`
 
 ---
 
@@ -57,8 +51,6 @@ This repository contains the reproduction benchmarks, profiler traces, and produ
   - `Enterprise`: Transport via `navigator.sendBeacon` with `fetch(..., { keepalive: true })` fallback and RUM session queueing.
 - **Resources**:
   - 🎬 [Watch Breakdown on Instagram](https://instagram.com/beyondlocalhost.dev)
-  - 💻 Code: [`./episodes/04-ga4-vitals-streaming`](./episodes/04-ga4-vitals-streaming)
-  - 📊 Benchmark: Run `pnpm ep04:naive` vs `pnpm ep04:optimized`
 
 ---
 
@@ -69,8 +61,6 @@ This repository contains the reproduction benchmarks, profiler traces, and produ
   - `Enterprise`: Cooperative scheduling using `navigator.scheduling.isInputPending()` and native `scheduler.yield()`.
 - **Resources**:
   - 🎬 [Watch Breakdown on Instagram](https://instagram.com/beyondlocalhost.dev)
-  - 💻 Code: [`./episodes/05-scheduler-yield-main-thread`](./episodes/05-scheduler-yield-main-thread)
-  - 📊 Benchmark: Run `pnpm ep05:naive` vs `pnpm ep05:optimized`
 
 ---
 
